@@ -1,0 +1,221 @@
+body {
+    margin: 0%;
+}
+
+.login-page {
+    position: relative;
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.764);
+    display: flex;
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    margin-left: 50%;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.43);
+    border-radius: 20px;
+}
+
+.login-form-content h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgba(0, 0, 255, 0.489);
+}
+
+.login-form-content input {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20%;
+    border: none;
+    outline: none;
+}
+
+.login-form-content button {
+    width: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 28%;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 255, 0.441);
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.login-form-content a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Admin Dashboard Home Page */
+.admin-header {
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    margin-top: 0%;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: last baseline;
+    gap: 80%;
+}
+
+.admin-icon {
+    font-size: 30px;
+}
+
+.admin-dashboard {
+    background-color: skyblue;
+    width: 20%;
+    height: 650px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+
+}
+
+.admin-dashboard a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.admin-dashboard li {
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+.welcome-admin {
+    position: absolute;
+    top: 11.5%;
+    margin-left: 20%;
+    width: 80%;
+    height: 650px;
+}
+
+.welcome-admin h1 {
+    position: absolute;
+    top: 30%;
+    margin-left: 30%;
+    color: white;
+    font-size: 50px;
+}
+
+.add-donor {
+    position: absolute;
+    top: 20%;
+    margin-left: 30%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: rgba(71, 178, 240, 0.667);
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+.search-donor{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.add-donor input{
+    border: 2px solid skyblue;
+    outline: none;
+    font-size: 15px;
+}
+.contact-update{
+    width: 50%;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.223);
+    position: absolute;
+    top: 20%;
+    margin-left: 30%;
+    display: block;
+    padding: 40px;
+    
+    
+}
+.input1{
+    width: 60%;
+    padding: 20px;
+    margin-left: 16%;
+    border: 2px solid skyblue;
+    outline: none;
+    
+}
+.input2{
+    width: 60%;
+    padding: 20px;
+    margin-left: 7.5%;
+    margin-top: 15px;
+    border: 2px solid skyblue;
+    outline: none;
+}
+.input3{
+    width: 60%;
+    padding: 20px;
+    margin-left: 19%;
+    margin-top: 15px;
+    border: 2px solid skyblue;
+    outline: none;
+}
+.label1{
+    font-size: 25px;
+    color: skyblue;
+    font-weight: bold;
+    
+}
+.label2{
+        font-size: 25px;
+        color: skyblue;
+    font-weight: bold;
+  
+}
+.label3{
+        font-size: 25px;
+        color: skyblue;
+    font-weight: bold;
+   
+}
+.contact-update-button{
+    margin-top: 40px;
+    padding: 10px;
+    width: 150px;
+    font-size: 17px;
+    margin-left: 75%;
+}
