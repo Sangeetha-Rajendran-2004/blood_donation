@@ -1,0 +1,498 @@
+body{
+    margin: 0%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+    background-color: whitesmoke;
+    height: 70px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.logo-img {
+    width: 80px; 
+    height: 60px;
+    margin-right: 30px;
+    padding: 3px 0 0 20px;
+}
+
+.slogan {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    
+}
+.phone{
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.595);
+    font-weight: bold;
+    margin-left: 500px;
+}
+.email{
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.581);
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.nav{
+    background-color: rgba(255, 0, 0, 0.564);
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    gap: 30px;
+    margin-left: 450px;
+    padding-top: 20px;
+}
+.nav-names{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.nav-names a{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    background-color: antiquewhite;
+    
+}
+.banner-img{
+    width: 100%;
+    height: 70%;
+    position: relative;
+
+}
+.slogan1{
+    position: absolute;
+    top: 40%;
+    margin-left: 54%;
+}
+.slogan1-content{
+    color: red;
+    font-size: 50px;
+}
+.slogan1-button{
+    font-size: 20px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: red;
+   border: none;
+   box-shadow: 0 10px 6px rgba(0, 0, 0, 0.2); 
+}
+.slogan1-button a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background-color: rgba(255, 0, 0, 0.516);
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    color: white;
+    letter-spacing: 2px;
+    height: 33%;
+}
+.quick-links li{
+    list-style: none;
+}
+.quick-links a{
+    text-decoration: none;
+    color: white;
+}
+.quick-links a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.footer-icon a{ 
+    color: white;
+}
+.footer-icon a:hover{
+    color: red;
+}
+.copyrights{
+    background-color: rgba(255, 0, 0, 0.516);
+   padding: 0%;
+   display: flex;
+   color: white;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   
+   border-top: 1px solid white;
+}
+/* Home page */
+.banner7{
+    margin-left: 58%;
+    margin-top: 40px;
+    /* border-radius: 500px; */
+    position: relative;
+}
+.blood-donor-day{
+    height: 70%;
+    
+}
+.donor-day-content{
+    position: absolute;
+    /* background-color: antiquewhite; */
+    top: 95%;
+    width: 50%;
+    margin-left: 50px;
+}
+.donor-day-content h1{
+    color: red;
+}
+.donor-day-content p{
+    color: grey;
+}
+.process{
+    height: 40%;
+    background-color: rgb(255, 0, 0);
+}
+.process-card{
+    width: 20%;
+    height: 80%;
+    background-color: white;
+   display: inline-block;
+   margin-top: 40px;
+   margin-left: 55px;
+   border-radius: 10px;
+   border: none;
+   box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.229);
+   text-align: center;
+}
+.process-card i{
+    margin-top: 50px;
+    font-size: 30px;
+    color: grey;
+}
+.process-card p{
+    margin-top: 20px;
+    
+}
+/* About page */
+.about{
+    height: 80%;
+}
+.about-img{
+    margin-top: 40px;
+    margin-left: 20px;
+    position: relative;
+}
+.about-section{
+    position: absolute;
+    top: 20px;
+    margin-left: 50%;
+    margin-top: 15%;
+    font-size: 20px;
+}
+.about-h2
+{
+    color: red;
+}
+.about-p{
+    color: rgb(72, 70, 70);
+}
+
+/* why_donate_blood */
+
+.donate_blood-img{
+    width: 100%;
+    height: 130%;
+    opacity: 0.5;
+    position: relative;
+}
+.why_donate_blood-content{
+    position: absolute;
+    top: 20%;
+    margin-left: 25%;
+    margin-top: 30px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+   
+    width: 50%;
+    
+}
+.donate-blood-h2{
+    color: rgb(242, 17, 17);
+    text-align: center;
+    font-size: 40px;
+}
+.donate-blood-p{
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+/* become-Donor */
+.become-donar{
+    
+    width: 100%;
+    
+}
+.become-donor-img{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 3%;
+    
+}
+.become-donor-form{
+    width: 30%;
+    
+    position: absolute;
+    top: 30%;
+    margin-left: 50%;
+    padding: 20px; 
+    text-align: center; 
+}
+.become-donor-h1{
+    color: red;
+    
+
+}
+.donor-form-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+   padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid red;
+    outline: none;
+    font-size: 15px;
+    margin-left: 60px;
+    
+}
+.donor-form-button{
+    width: 40%;
+    padding: 10px;
+     border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: rgba(255, 0, 0, 0.722);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+/* Donor page */
+
+.donor-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.donor-card {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.donor-card:hover {
+    transform: scale(1.05);
+}
+
+.donor-info h2 {
+    margin-bottom: 10px;
+    color: crimson;
+}
+
+.donor-info p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+
+/* Need Blood */
+
+.need-blood-form{
+    background-color:antiquewhite;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+    height: 35%;
+    position: relative;
+}
+.need-blood-h1{
+    color: red;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+}
+.select{
+    width: 30%;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    height: 40px;
+    margin-left: 100px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.select1{
+    width: 30%;
+    height: 20px;
+    position: absolute;
+    top: 130px;
+    margin-left: 53%;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    
+}
+.need-blood-button{
+    position: absolute;
+    top: 80%;
+    width: 20%;
+    padding: 10px;
+    margin-left: 40%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.donor-info1{
+    display: block;
+    text-align: center;
+    width: 100%;
+    color:red;
+}
+.donors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.donor-card1 {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.donor-card1:hover {
+    transform: scale(1.05);
+}
+
+.donor-card1 h2 {
+    margin-bottom: 10px;
+    color: crimson;
+}
+
+.donor-card1 p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+
+
+/* Contact Us */
+
+.contactus{
+    display: flex;
+    margin-top: 60px;
+    height: 80%;
+}
+.contactus-form{
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.1);
+    width: 30%; 
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.contactus-form1 h1{
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+}
+.contactus-input{
+   width: 200px;
+   padding: 10px;
+   margin-top: 40px;
+   font-size: 15px;
+   border: 2px solid red;
+   outline:none;
+   margin-left: 20px;
+  
+}
+#message{
+    width: 400px;
+    height: 90px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 2px solid red;
+    outline: none;
+}
+.contactus-button{
+    width: 200px;
+    padding: 10px;
+    margin: 40px 0 0 140px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 15px;
+}
+.contact-details{
+    display: inline;
+    background-color:white;
+    width: 300px;
+    height: 73%;
+    padding: 20px;
+    margin-left: 50px;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+}
+.contact-details h1 {
+    color: red;
+    
+}
+.contact-details span{
+    color: grey;
+}
+.contact-details p{
+    color: red;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
